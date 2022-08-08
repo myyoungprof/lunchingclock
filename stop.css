@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(81, 113, 103);
+    background-color: lavender;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* text-align: center; */
+    /* background-color: blue; */
+    
+}
+
+.img{
+    height: 300px;
+    width: 540px;
+    /* background-color: brown; */
+
+}
+
+img{
+    height: 300px;
+    width: 500px;
+}
+
+.clock{
+    width: 550px;
+    padding-top: 50px;
+    /* background-color: aquamarine; */
+}
+
+.time{
+    display: flex;
+    /* background-color: bisque; */
+    margin: 15px;
+
+}
+
+.air{
+    /* margin-left: 20px; */
+    background-color: black;
+    color: ghostwhite;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+h1{
+    color: blue;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+h3{
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+}
+
+p{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: xx-large;
+    font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.word{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#one, #two, #three{
+    margin-left: 20px;
+}
+@media (max-width:800px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        
+        
+    }
+    
+    .img{
+        height: 240px;
+        width: 250px;
+    
+    
+    }
+    
+    img{
+        height: 240px;
+        width: 300px;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+    
+    .clock{
+        width: 300px;
+        /* background-color: aqua; */
+       
+    }
+    
+    .time{
+        display: flex;
+        padding-top: 10px;
+    
+    }
+    
+    .air{
+        /* margin-left: 8px; */
+        background-color: black;
+        color: ghostwhite;
+        text-align: center;
+        padding-top: 12px;
+        width: 70px;
+        height: 70px;
+    }
+    #one, #two, #three{
+        margin-left: 17px;
+    }
+    h1{
+        color: blue;
+        margin: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bolder;
+
+    }
+    h3{
+        margin: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: oblique;
+    }
+    
+    p{
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    h4{
+        font-size: x-large;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .word{
+        font-size: smaller;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+}
+
